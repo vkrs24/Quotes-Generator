@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  background-image: url("./images/qb.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conatiner {
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Quote_card {
+  max-width: 35rem;
+  background-color: rgba(0, 0, 0, 0.351);
+  padding: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.quote_header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quote_header hr {
+  width: 100%;
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+
+.fa-solid {
+  font-size: 5rem;
+}
+
+.quote_footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.fa-square-whatsapp {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.quote_btn {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .conatiner {
+    height: 100%;
+    margin: 1rem 0;
+  }
+  .quote_header {
+    font-size: 1rem;
+  }
+}
